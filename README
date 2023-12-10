@@ -1,0 +1,14 @@
+This group of matlab programs is setup to run shock impedance matching for a three material shock experiment.
+The program is time and space agnostic and only follows the shock wave reverberating through the target.
+The program is set up with several preset materials, and allows the user to write their own model.
+The Impedance matching method is based on a number of assumptions/simplifications which make the method quick and easy.
+The two most important assumptions are:
+  1) The material releases along the hugoniot
+  2) Materials behave hydrodynamicaly (inelasticaly)
+      A material can be set up for perfect elasticity be setting C0=CL and s=0
+These make the method inaccurate, but it can be a good approximation.
+
+The impedance matching method is based on first principles: the conservation of mass and linear momentum,
+More information about this method can be found in Jerry W. Forbes, "Shock Wave Compression of Condensed Matter", chapter 3.
+An explainaition of the method can be found in Dr. John Borg's Shock Physics Class.
+The preset hugoniot models are from Marc A. Meyers, "Dynamic Behavior of Materials", page 133.
